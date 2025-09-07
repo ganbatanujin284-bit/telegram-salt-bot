@@ -4,8 +4,8 @@ import qrcode, requests
 from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = os.getenv("BOT_TOKEN")
-BTC_ADDRESS = os.getenv("BTC_ADDRESS") or "bc1q_your_btc_address_here"  # ← өөрийн хаягаа оруул
+TOKEN = os.getenv("8449746552:AAGDJBlNazAHg_UcMWeGMfw99v6rNYX7ukg")
+BTC_ADDRESS = os.getenv("BTC_ADDRESS") or "bc1qhs90rgayvff7h50fcmwmlkgk9sdxq58m6pzthd"  # ← өөрийн хаягаа оруул
 
 # Дисплей дээр MNT, бодит BTC-д зориулж USD дүн хадгална
 ITEMS = {
